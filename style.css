@@ -1,1 +1,33 @@
+ *{
+     margin: 0;
+ }
  
+ .card {
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    color: #434656;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+ }
+
+ .card ul {
+    margin: 10px 0;
+ }
+
+ .card .demo {
+    background-color: #007FFF;
+    margin: 10px 0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .card .code {
+    background-color: #434656;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+ }
