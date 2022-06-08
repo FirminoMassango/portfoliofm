@@ -1,33 +1,78 @@
- *{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
      margin: 0;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+    
  }
+
+.container {
+   background-color: #F2F2F2;
+}
+
+
+.cards {
+   display: flex;
+   justify-content: center;
+}
  
  .card {
-    width: 30%;
+    width: 300px;
+    height: 100%;
     margin: 20px;
     padding: 10px;
     color: #434656;
-    border: 1px solid #c4c4c4;
-    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 12px;
  }
 
- .card ul {
-    margin: 10px 0;
+ .card img {
+   width: 100%;
+   height: 200px;
+   border-radius: 12px;
  }
 
- .card .demo {
-    background-color: #007FFF;
-    margin: 10px 0;
-    padding: 8px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #fff;
+ .tags {
+   margin-block: 15px;
  }
 
- .card .code {
-    background-color: #434656;
-    padding: 8px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #fff;
+.tags span {
+   font-size: 16px;
+   margin-right: 5px;
+   color: #4F4F4F;
+}
+ .card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333333;
  }
+
+ .card p {
+    font-size: 16px;
+    color: #828282;
+ }
+
+ .links {
+   display: flex;
+   margin: 50px 0 20px 0;
+ }
+
+ .links .demo {
+   background-color: #2F80ED;
+   color: #fff;
+   padding: 8px 20px;
+   text-decoration: none;
+   border-radius: 12px;
+ }
+
+ .links .code {
+   background-color: #FFF;
+   color: #2F80ED;
+   border: 1px solid #2F80ED;
+   padding: 8px 20px;
+   text-decoration: none;
+   border-radius: 12px;
+   margin-left: 20px;
+ }
+ 
