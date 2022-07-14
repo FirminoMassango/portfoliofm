@@ -23,10 +23,10 @@ nav li .active {
   border-bottom: 1px solid black;
 }
 
-.grid-works {
+/* .grid-works {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px));
-}
+} */
 
 #social {
   animation: animSocial 3s linear;
