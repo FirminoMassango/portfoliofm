@@ -1,0 +1,104 @@
+$success: #55DAA8;
+$light: #6BB8FF;
+
+section {
+    height: 100vh;
+}
+
+nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 5%;
+        animation: animNav 1s forwards;
+ 
+            .logo {
+                text-transform: uppercase;
+            }
+ 
+            li {
+                 display: inline-block;
+                 padding: 0 15px;
+                 font-family: Spartan;
+ 
+                 a {
+                     text-decoration: none;
+                 }
+                
+                 .active {
+                     border-bottom: 1px solid black;
+                 }
+            }
+
+    }
+
+.grid-works {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px));
+}
+
+
+#social {
+    animation: animSocial 3s linear;
+}
+
+#contact {
+    animation: animContact 3s linear;
+}
+
+
+#alert {
+    visibility: hidden;
+}
+
+#alert2 {
+    visibility: hidden;
+}
+
+#label {
+    color: $success;
+    animation: animLabel .7s forwards infinite;
+}
+
+img {
+    width: 700px;
+    height: 1000px;
+}
+
+@keyframes animSocial {
+    from {
+        margin-top: -100%;
+        opacity: 1;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+@keyframes animNav {
+    from {
+        margin-top: -100%;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
+@keyframes animContact {
+    from {
+        margin-left: -100%;
+        opacity: 1;
+    }
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animLabel {
+    from {
+        color: $success;
+    }
+    to {
+        color: $light;
+    }
+}

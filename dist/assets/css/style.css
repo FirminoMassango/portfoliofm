@@ -1,0 +1,93 @@
+section {
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5%;
+  animation: animNav 1s forwards;
+}
+nav .logo {
+  text-transform: uppercase;
+}
+nav li {
+  display: inline-block;
+  padding: 0 15px;
+  font-family: Spartan;
+}
+nav li a {
+  text-decoration: none;
+}
+nav li .active {
+  border-bottom: 1px solid black;
+}
+
+.grid-works {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px));
+}
+
+#social {
+  animation: animSocial 3s linear;
+}
+
+#contact {
+  animation: animContact 3s linear;
+}
+
+#alert {
+  visibility: hidden;
+}
+
+#alert2 {
+  visibility: hidden;
+}
+
+#label {
+  color: #55DAA8;
+  animation: animLabel 0.7s forwards infinite;
+}
+
+img {
+  width: 700px;
+  height: 1000px;
+}
+
+@keyframes animSocial {
+  from {
+    margin-top: -100%;
+    opacity: 1;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+@keyframes animNav {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+@keyframes animContact {
+  from {
+    margin-left: -100%;
+    opacity: 1;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@keyframes animLabel {
+  from {
+    color: #55DAA8;
+  }
+  to {
+    color: #6BB8FF;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
