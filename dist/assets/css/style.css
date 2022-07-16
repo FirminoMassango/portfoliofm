@@ -23,6 +23,12 @@ nav li .active {
   border-bottom: 1px solid black;
 }
 
+#contact a{
+  text-decoration: none;
+  color: #ff0066ff;
+  border: 1px solid #ff0066ff;
+}
+
 /* .grid-works {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px));
@@ -45,7 +51,7 @@ nav li .active {
 }
 
 #label {
-  color: #55DAA8;
+  color: #55daa8;
   animation: animLabel 0.7s forwards infinite;
 }
 
@@ -87,10 +93,10 @@ img {
 }
 @keyframes animLabel {
   from {
-    color: #55DAA8;
+    color: #55daa8;
   }
   to {
-    color: #6BB8FF;
+    color: #6bb8ff;
   }
 }
 
