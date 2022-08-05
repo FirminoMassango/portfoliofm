@@ -2,6 +2,10 @@ section {
   height: 100vh;
 }
 
+#timeline {
+  height: 100%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
