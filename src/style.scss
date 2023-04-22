@@ -1,3 +1,5 @@
+
+
 $success: #55DAA8;
 $light: #6BB8FF;
 
@@ -16,9 +18,14 @@ nav {
             }
  
             li {
+                // @font-face {
+                //     font-family: 'Spartan';
+                //     src: url('../dist/assets/font/Spartan-Regular.ttf') format('truetype'); 
+                //   }
+                
                  display: inline-block;
                  padding: 0 15px;
-                 font-family: Spartan;
+                //  font-family: Spartan;
  
                  a {
                      text-decoration: none;
